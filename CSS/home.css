@@ -81,6 +81,7 @@ video {
   background-color: white;
   transform:scale(1.2) translate3d(0px, -5px, 0px);
 }
+
 /* Home Section */
 #home {
   display: flex;
@@ -94,7 +95,7 @@ video {
 }
 #home h1 {
   font-size: 5rem;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 #home p {
