@@ -11,14 +11,14 @@ header{
 }
 header::before{
     content: "";
-    background: url('/img/van\ bg.jpg') no-repeat center;
+    background: url('/img/Loginbg2.jpg') no-repeat center;
     background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
     z-index:-1;
-    opacity: 0.5;
-    filter: blur(2px);
+    opacity: 0.8;
+    /* filter: blur(2px); */
     /* -webkit-filter: blur(3px); */
 }
 .container {
@@ -33,7 +33,7 @@ header::before{
 
 .btn {
 
-    background-color: beige;
+    background-color: #a1fffb;
     color: rgb(3, 3, 3);
     padding-top: 2px;
     border: 2px solid gray;
@@ -44,7 +44,8 @@ header::before{
     line-height: 35px;}
 
 .btn:hover {
-    background-color: burlywood;
+    background-color: transparent;
+    color: white;
 }
 .form-grp input {
     text-align: center;
