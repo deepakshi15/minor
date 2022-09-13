@@ -6,11 +6,15 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Video Sectio */
 #bg-video {
   position: absolute;
   width: 100%;
-  top: -240px;
+  top: -239px;
   right:0px;
   z-index: -1;
   object-position: center;
@@ -24,7 +28,7 @@
 #navbar {
   display: flex;
   align-items: center;
-  position: relative;
+  position: sticky;
   top: 0px;
   left: 0px;
 }
@@ -90,7 +94,7 @@
 }
 #btn-grp a{
   color: white;
-  padding: 10px;
+  padding: 5px 20px;
   margin: 0px 12px;
   border: 2px solid white;
   font-size: 1.4rem;
@@ -133,6 +137,19 @@
   font-size: 1.5rem;
 }
 
+#arrow{
+  position: absolute;
+  bottom:50px;
+  /* right: 10px; */
+  /* border: 2px solid white; */
+  /* background:white; */
+  border-radius: 50px;
+}
+#arrow svg{
+  padding-top: 3px;
+  color: white;
+}
+
 /* Packages section */
 #packages {
   margin: 34px;
@@ -151,6 +168,8 @@
   height: 160px;
   display: block;
   margin: auto;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 #packages .box p {
@@ -169,7 +188,7 @@
 }
 
 .h-secondary {
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding: 12px;
   font-family: 'Baloo Bhaijaan 2', cursive;
 
