@@ -185,7 +185,7 @@ html {
   transition-duration: .3s;
 }
 #packages .box:hover{
-  border: 3px dashed rgb(47, 0, 190);
+  border: 3px solid rgb(47, 0, 190);
   transform: scale(1.1);
   z-index: 2;
 }
