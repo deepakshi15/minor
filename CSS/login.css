@@ -41,7 +41,9 @@ header::before{
     font-size: 15px;
     cursor: pointer;
     font-family: 'Baloo Bhaijaan 2', cursive;
-    line-height: 35px;}
+    line-height: 35px;
+    transition-property: all;
+    transition-duration: .4s;}
 
 .btn:hover {
     background-color: transparent;
