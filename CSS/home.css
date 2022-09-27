@@ -148,8 +148,8 @@ html {
 }
 
 #arrow {
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  bottom: -250px;
   /* right: 10px; */
   /* border: 2px solid white; */
   /* background:white; */
@@ -364,7 +364,7 @@ footer {
   font-size: 1.2rem;
   background: black;
   color: white;
-  padding: 9px 20px;
+  padding: 5px 20px;
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
