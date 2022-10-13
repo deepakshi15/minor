@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forgot Password</title>
+    <script src="/JS/ForgetPassword.js"></script>
     <link rel="stylesheet" href="/CSS/forget.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +24,10 @@
                 <label for="email">Email</label>
                 <input type="email" name="" id="email" placeholder="Enter your Email">
             </div>
+                <input type="button" value="Send Code" class="btn" id="sendBtn" onclick="show()">
             
             <div class="form-grp">
-                <label for="Code">Verification Code</label>
-                <input type="number" name="" id="Code" placeholder="Sent on your Email">
+                <input type="number" name="" id="Code" placeholder=" Enter the code Sent on your Email">
             </div>
             
             <div>

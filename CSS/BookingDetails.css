@@ -1,11 +1,16 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    /* background: linear-gradient(rgba(0, 21, 255, 0.297), rgba(0, 21, 255, 0.325)), url("/img/traveler\ details.jpg"); */
+    background:url("/img/traveler\ details.jpg");
+    background-repeat: no-repeat;
+    background-position: center/cover;
+    background-size: 200%;
 }
 
 .container {
-    background: radial-gradient(rgb(255, 255, 255) 30%, rgba(0, 21, 255, 0.178));
+    background: radial-gradient(rgba(255, 255, 255, 0.485) 30%, rgba(135, 200, 222, 0.584));
     width: 60%;
     margin: 100px auto;
     padding: 25px;

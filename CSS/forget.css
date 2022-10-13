@@ -89,11 +89,13 @@ label{
     /* text-decoration:underline; */
 }
 #email{
-    margin-left: 113px;
+    margin-left: 98px;
 }
 #Code{
-    margin-left: 14px;
+    margin:10px auto;
+    display: none;
 }
 #newpass{
     text-decoration: none;
+    display: none;
 }
